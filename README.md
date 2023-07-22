@@ -13,24 +13,6 @@ Once this is done we are good to go
 
 ###CODE
 
-from gingerit.gingerit import GingerIt
-import streamlit as st
-st.title("Grammar Checker")
-text=st.text_area("Enter text:",
-                  value='',
-                  height=None,
-                  max_chars=None,
-                  key=None)
-parser=GingerIt()
-
-if st.button("Correct Sentence="):
-    if text== '':
-        st.write("Please enter the text for checking")
-    else:
-        result_dict=parser.parse(text)
-        st.markdown("** Corrected Senttence = " + str(result_dict["result"]))
-else:
-    pass
 
 
 TO RUN THIS CODE 
@@ -40,3 +22,8 @@ streamlit run filename.py
 THIS WILL DIRECT YOU TO A PAGE AS BELLOW 
 
 <img width="888" alt="Screenshot 2023-07-22 at 8 45 22 PM" src="https://github.com/sahana0728/Grammar_checker/assets/95917958/2f4cbc68-e997-453d-ad67-cf6a51693270">
+
+type your text and this will correct the sentence 
+
+<img width="897" alt="Screenshot 2023-07-22 at 8 48 15 PM" src="https://github.com/sahana0728/Grammar_checker/assets/95917958/7ea7745e-9dda-457c-9d4c-a9ecc625c230">
+
