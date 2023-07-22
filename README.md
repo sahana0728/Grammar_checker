@@ -38,3 +38,5 @@ GO TO THE TERMINAL AND WRITE THIS COMMAND
 streamlit run filename.py
 
 THIS WILL DIRECT YOU TO A PAGE AS BELLOW 
+
+<img width="888" alt="Screenshot 2023-07-22 at 8 45 22 PM" src="https://github.com/sahana0728/Grammar_checker/assets/95917958/2f4cbc68-e997-453d-ad67-cf6a51693270">
