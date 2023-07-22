@@ -13,7 +13,7 @@ Once this is done we are good to go
 
 ###CODE
 
-
+run the filename.py folder code
 
 TO RUN THIS CODE 
 GO TO THE TERMINAL AND WRITE THIS COMMAND 
